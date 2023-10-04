@@ -1,0 +1,159 @@
+/* ========
+Global styles  
+==========*/
+
+html {
+    width: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    border: 5px solid black;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ========
+Typography 
+======== */
+
+h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+/* ========
+Layout 
+======== */
+
+header {
+    background-color: #308a75;
+    color: white;
+    border-bottom: solid black 3px;
+    display: flex;
+}
+
+.name {
+    width: 350px;
+    margin: 20px 60px;
+    border: solid rgb(173, 177, 187) 3px;
+}
+
+.name > h1 {
+    color: rgb(173, 177, 187);
+    text-align: center;
+
+}
+
+.bio > p {
+    text-align: center;
+}
+
+#man {
+    width: 500px;
+    height: 300px;
+    margin: 8px;
+    border: 4px black solid;
+}
+
+.contact {
+    text-align: center;
+    background-color: white;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact > p {
+   color: black;
+   font-size: 20px;
+}
+
+.work-experience {
+    text-align: center;
+}
+
+.work-experience > h2 {
+    border: solid black 3px;
+    text-align: center;
+    margin: 5px 150px
+}
+
+.experience {
+    background-color: #1D3C41;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: solid black 3px;
+}
+.row {
+    margin: 0 10px;
+}
+
+.row > h3 {
+    color: rgb(173, 177, 187);
+    border: 2px solid rgb(173, 177, 187);
+    text-align: center;
+}
+
+.row > h4 {
+    text-align: left;
+    padding: 2px;
+    border-bottom: solid 3px black;
+    width: 220px;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    margin: 25px 5px;
+}
+
+.columns {
+    background-color:#308a75;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    background-color:#308a75;
+    color: white;
+    margin: 0 10px;
+    border: #308a75 solid 5px;
+    width: 33%;
+    text-align: center;
+}
+
+.column > p {
+    color: white;
+    padding: 10px;
+    margin: 2px;
+}
+ 
+.container-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 130px;
+    margin-top: 2px;
+    border-bottom: black solid 3px;
+}
+
+img {
+    width: 200px;
+    height: 125px;
+    margin: 45px;
+}
